@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Predictive Analytics & Forecasting Suite</title>
+  <meta name="description" content="AI & Machine Learning Predictive Analytics Dashboard forecasting future trends, sales demand, model accuracy metrics, and confidence intervals.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- SheetJS -->
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+  <div class="layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-symbol">
+          <i class="fa-solid fa-arrow-trend-up"></i>
+        </div>
+        <div class="brand-text">
+          <h2>ForeSight AI</h2>
+          <span>Predictive Analytics</span>
+        </div>
+      </div>
+
+      <!-- Forecast Controls -->
+      <div class="sidebar-block">
+        <div class="block-header">
+          <span><i class="fa-solid fa-sliders"></i> Forecast Parameters</span>
+        </div>
+
+        <div class="field-group">
+          <label for="horizon-select">Forecast Horizon</label>
+          <select id="horizon-select" class="dropdown">
+            <option value="30">Next 30 Days (Short-term)</option>
+            <option value="60" selected>Next 60 Days (Standard)</option>
+            <option value="90">Next 90 Days (Quarterly Outlook)</option>
+          </select>
+        </div>
+
+        <div class="field-group">
+          <label for="model-select">Ensemble Algorithm</label>
+          <select id="model-select" class="dropdown">
+            <option value="ensemble" selected>Ensemble (Ridge + Random Forest)</option>
+            <option value="rf">Random Forest Regressor</option>
+            <option value="ridge">Ridge Regression + Seasonality</option>
+          </select>
+        </div>
+
+        <div class="field-group">
+          <label for="confidence-toggle">Confidence Interval</label>
+          <select id="confidence-toggle" class="dropdown">
+            <option value="true" selected>95% Confidence Band (Visible)</option>
+            <option value="false">Hidden</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Model Performance Card -->
+      <div class="sidebar-block scorecard">
+        <div class="block-header">
+          <span><i class="fa-solid fa-bullseye"></i> Model Accuracy</span>
+        </div>
+        <div class="accuracy-score">
+          <span class="score-num" id="val-accuracy">94.8%</span>
+          <span class="score-sub">Forecast Precision</span>
+        </div>
+        <div class="metrics-mini-list">
+          <div><span>MAPE:</span> <strong id="val-mape">5.2%</strong></div>
+          <div><span>R² Score:</span> <strong id="val-r2">0.45</strong></div>
+          <div><span>MAE:</span> <strong id="val-mae">$1,240</strong></div>
+          <div><span>RMSE:</span> <strong id="val-rmse">$1,580</strong></div>
+        </div>
+        <button id="export-forecast-btn" class="btn btn-action">
+          <i class="fa-solid fa-file-excel"></i> Export Forecast Data
+        </button>
+      </div>
+
+      <div class="sidebar-footer">
+        <div class="status-badge">
+          <span class="dot"></span>
+          <span>730 Days Preprocessed</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-body">
+      <!-- Top Bar -->
+      <header class="topbar">
+        <div>
+          <h1 class="main-title">Predictive Analytics & Future Trend Forecasting</h1>
+          <p class="main-subtitle">Historical time-series learning, data preprocessing, regression models, and future revenue projections</p>
+        </div>
+        <div class="topbar-actions">
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="forecast-search" placeholder="Search date (e.g. 2025-01)...">
+          </div>
+          <button id="theme-btn" class="round-btn" title="Toggle Dark/Light">
+            <i class="fa-solid fa-sun"></i>
+          </button>
+        </div>
+      </header>
+
+      <!-- KPI Executive Summary -->
+      <section class="kpi-grid">
+        <div class="kpi-card accent-purple">
+          <div class="kpi-meta">
+            <span>Projected 60-Day Revenue</span>
+            <div class="kpi-icon"><i class="fa-solid fa-coins"></i></div>
+          </div>
+          <h2 class="kpi-stat" id="kpi-projected-rev">$0</h2>
+          <div class="kpi-tag positive">
+            <i class="fa-solid fa-arrow-trend-up"></i>
+            <span>+18.4% YoY Expansion</span>
+          </div>
+        </div>
+
+        <div class="kpi-card accent-blue">
+          <div class="kpi-meta">
+            <span>Forecasted Daily Demand</span>
+            <div class="kpi-icon"><i class="fa-solid fa-boxes-packing"></i></div>
+          </div>
+          <h2 class="kpi-stat" id="kpi-avg-daily-rev">$0 / day</h2>
+          <div class="kpi-tag neutral">
+            <i class="fa-solid fa-chart-line"></i>
+            <span id="kpi-demand-units">~230 units / day</span>
+          </div>
+        </div>
+
+        <div class="kpi-card accent-teal">
+          <div class="kpi-meta">
+            <span>Model Mean Absolute Error</span>
+            <div class="kpi-icon"><i class="fa-solid fa-crosshairs"></i></div>
+          </div>
+          <h2 class="kpi-stat" id="kpi-stat-mae">$0</h2>
+          <div class="kpi-tag positive">
+            <i class="fa-solid fa-shield-check"></i>
+            <span>Low variance risk</span>
+          </div>
+        </div>
+
+        <div class="kpi-card accent-emerald">
+          <div class="kpi-meta">
+            <span>Historical Data Points</span>
+            <div class="kpi-icon"><i class="fa-solid fa-database"></i></div>
+          </div>
+          <h2 class="kpi-stat">730 Days</h2>
+          <div class="kpi-tag highlight">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>Cleaned & Imputed</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Main Predictive Chart (Historical Actuals + Forecast Band) -->
+      <section class="chart-panel">
+        <div class="panel-head">
+          <div>
+            <h3>Predictive Revenue Forecast & 95% Confidence Interval</h3>
+            <p>Seamless transition from historical actuals to future machine learning predictions</p>
+          </div>
+          <div class="chart-badges">
+            <span class="legend-chip actual"><i class="fa-solid fa-circle"></i> Historical Actuals</span>
+            <span class="legend-chip forecast"><i class="fa-solid fa-circle"></i> ML Future Prediction</span>
+            <span class="legend-chip band"><i class="fa-solid fa-square"></i> 95% Confidence Bounds</span>
+          </div>
+        </div>
+        <div class="canvas-box-lg">
+          <canvas id="forecastMainChart"></canvas>
+        </div>
+      </section>
+
+      <!-- Secondary Visualizations: Feature Drivers & Moving Average Smoothing -->
+      <section class="split-charts">
+        <div class="chart-panel">
+          <div class="panel-head">
+            <div>
+              <h3>Predictive Feature Importance</h3>
+              <p>Key drivers behind model predictions (Random Forest)</p>
+            </div>
+          </div>
+          <div class="canvas-box-sm">
+            <canvas id="featureImportanceChart"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-panel">
+          <div class="panel-head">
+            <div>
+              <h3>Historical Trend & Moving Averages</h3>
+              <p>Raw revenue vs 7-day and 30-day smoothed trajectories</p>
+            </div>
+          </div>
+          <div class="canvas-box-sm">
+            <canvas id="smoothingChart"></canvas>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projected Forecast Data Table -->
+      <section class="chart-panel">
+        <div class="panel-head flex-between">
+          <div>
+            <h3>Forecast Trajectory Records</h3>
+            <p id="table-record-info">Showing daily predictions</p>
+          </div>
+          <div class="pagination">
+            <button id="p-prev" class="btn-arrow"><i class="fa-solid fa-chevron-left"></i></button>
+            <span id="p-text">Page 1 of 1</span>
+            <button id="p-next" class="btn-arrow"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table class="grid-table">
+            <thead>
+              <tr>
+                <th>Forecast Date</th>
+                <th>Day of Week</th>
+                <th class="right">Projected Revenue</th>
+                <th class="right">Lower Bound (95% CI)</th>
+                <th class="right">Upper Bound (95% CI)</th>
+                <th class="right">Estimated Units</th>
+                <th>Confidence Status</th>
+              </tr>
+            </thead>
+            <tbody id="forecast-table-body">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="toast" class="toast">
+    <i class="fa-solid fa-circle-check"></i>
+    <span id="toast-text">Loaded successfully</span>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

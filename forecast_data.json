@@ -1,0 +1,1595 @@
+{
+  "modelMetrics": {
+    "MAE": 1595.75,
+    "RMSE": 2171.59,
+    "R2_Score": 0.4452,
+    "MAPE": 5.23,
+    "AccuracyPct": 94.77
+  },
+  "featureImportance": [
+    {
+      "feature": "7-Day Revenue Lag",
+      "importance": 34.5
+    },
+    {
+      "feature": "Previous Day Revenue",
+      "importance": 26.2
+    },
+    {
+      "feature": "Day of Year / Seasonality",
+      "importance": 18.4
+    },
+    {
+      "feature": "Marketing Spend Lift",
+      "importance": 11.8
+    },
+    {
+      "feature": "Weekend / Day of Week",
+      "importance": 9.1
+    }
+  ],
+  "historical": [
+    {
+      "Date": "2024-09-02",
+      "Revenue": 27018.84,
+      "UnitsSold": 211,
+      "WebsiteVisitors": 6906,
+      "MarketingSpend": 2892.62,
+      "Revenue_MA7": 26936.284285714286,
+      "Revenue_MA30": 27090.388
+    },
+    {
+      "Date": "2024-09-03",
+      "Revenue": 26140.3,
+      "UnitsSold": 201,
+      "WebsiteVisitors": 6629,
+      "MarketingSpend": 2466.65,
+      "Revenue_MA7": 26853.512857142858,
+      "Revenue_MA30": 27010.870666666666
+    },
+    {
+      "Date": "2024-09-04",
+      "Revenue": 26834.88,
+      "UnitsSold": 222,
+      "WebsiteVisitors": 5602,
+      "MarketingSpend": 2667.98,
+      "Revenue_MA7": 26695.65857142857,
+      "Revenue_MA30": 26975.904666666665
+    },
+    {
+      "Date": "2024-09-05",
+      "Revenue": 25889.42,
+      "UnitsSold": 212,
+      "WebsiteVisitors": 6253,
+      "MarketingSpend": 1824.71,
+      "Revenue_MA7": 26840.65857142857,
+      "Revenue_MA30": 26871.367000000002
+    },
+    {
+      "Date": "2024-09-06",
+      "Revenue": 30673.1,
+      "UnitsSold": 266,
+      "WebsiteVisitors": 6084,
+      "MarketingSpend": 3967.45,
+      "Revenue_MA7": 27550.545714285716,
+      "Revenue_MA30": 27015.259333333335
+    },
+    {
+      "Date": "2024-09-07",
+      "Revenue": 27453.37,
+      "UnitsSold": 233,
+      "WebsiteVisitors": 5413,
+      "MarketingSpend": 2577.53,
+      "Revenue_MA7": 27734.16857142857,
+      "Revenue_MA30": 27082.574333333334
+    },
+    {
+      "Date": "2024-09-08",
+      "Revenue": 26638.57,
+      "UnitsSold": 213,
+      "WebsiteVisitors": 7451,
+      "MarketingSpend": 2565.64,
+      "Revenue_MA7": 27235.497142857144,
+      "Revenue_MA30": 27105.439333333336
+    },
+    {
+      "Date": "2024-09-09",
+      "Revenue": 27729.22,
+      "UnitsSold": 213,
+      "WebsiteVisitors": 5590,
+      "MarketingSpend": 2935.46,
+      "Revenue_MA7": 27336.980000000003,
+      "Revenue_MA30": 27123.115666666665
+    },
+    {
+      "Date": "2024-09-10",
+      "Revenue": 25748.18,
+      "UnitsSold": 216,
+      "WebsiteVisitors": 6852,
+      "MarketingSpend": 2788.61,
+      "Revenue_MA7": 27280.962857142855,
+      "Revenue_MA30": 27021.930999999997
+    },
+    {
+      "Date": "2024-09-11",
+      "Revenue": 26336.69,
+      "UnitsSold": 226,
+      "WebsiteVisitors": 7341,
+      "MarketingSpend": 2634.33,
+      "Revenue_MA7": 27209.792857142857,
+      "Revenue_MA30": 27063.888
+    },
+    {
+      "Date": "2024-09-12",
+      "Revenue": 24542.22,
+      "UnitsSold": 204,
+      "WebsiteVisitors": 6763,
+      "MarketingSpend": 2025.72,
+      "Revenue_MA7": 27017.335714285717,
+      "Revenue_MA30": 27006.576999999997
+    },
+    {
+      "Date": "2024-09-13",
+      "Revenue": 26541.68,
+      "UnitsSold": 212,
+      "WebsiteVisitors": 7413,
+      "MarketingSpend": 2782.88,
+      "Revenue_MA7": 26427.132857142857,
+      "Revenue_MA30": 27023.884000000002
+    },
+    {
+      "Date": "2024-09-14",
+      "Revenue": 30933.55,
+      "UnitsSold": 285,
+      "WebsiteVisitors": 7164,
+      "MarketingSpend": 3629.21,
+      "Revenue_MA7": 26924.301428571427,
+      "Revenue_MA30": 27168.166
+    },
+    {
+      "Date": "2024-09-15",
+      "Revenue": 30528.61,
+      "UnitsSold": 300,
+      "WebsiteVisitors": 6757,
+      "MarketingSpend": 3307.25,
+      "Revenue_MA7": 27480.02142857143,
+      "Revenue_MA30": 27253.592666666664
+    },
+    {
+      "Date": "2024-09-16",
+      "Revenue": 27606.19,
+      "UnitsSold": 238,
+      "WebsiteVisitors": 6508,
+      "MarketingSpend": 3455.91,
+      "Revenue_MA7": 27462.445714285714,
+      "Revenue_MA30": 27190.142333333333
+    },
+    {
+      "Date": "2024-09-17",
+      "Revenue": 23834.72,
+      "UnitsSold": 216,
+      "WebsiteVisitors": 5117,
+      "MarketingSpend": 2193.27,
+      "Revenue_MA7": 27189.094285714287,
+      "Revenue_MA30": 27107.66833333333
+    },
+    {
+      "Date": "2024-09-18",
+      "Revenue": 24864.27,
+      "UnitsSold": 214,
+      "WebsiteVisitors": 4770,
+      "MarketingSpend": 1906.24,
+      "Revenue_MA7": 26978.74857142857,
+      "Revenue_MA30": 27098.268333333333
+    },
+    {
+      "Date": "2024-09-19",
+      "Revenue": 26513.77,
+      "UnitsSold": 223,
+      "WebsiteVisitors": 5950,
+      "MarketingSpend": 2424.53,
+      "Revenue_MA7": 27260.39857142857,
+      "Revenue_MA30": 27149.45
+    },
+    {
+      "Date": "2024-09-20",
+      "Revenue": 26420.25,
+      "UnitsSold": 227,
+      "WebsiteVisitors": 7306,
+      "MarketingSpend": 2533.43,
+      "Revenue_MA7": 27243.051428571427,
+      "Revenue_MA30": 27204.861666666668
+    },
+    {
+      "Date": "2024-09-21",
+      "Revenue": 29902.42,
+      "UnitsSold": 227,
+      "WebsiteVisitors": 6664,
+      "MarketingSpend": 3156.51,
+      "Revenue_MA7": 27095.747142857144,
+      "Revenue_MA30": 27301.464666666663
+    },
+    {
+      "Date": "2024-09-22",
+      "Revenue": 26758.18,
+      "UnitsSold": 218,
+      "WebsiteVisitors": 5682,
+      "MarketingSpend": 1484.52,
+      "Revenue_MA7": 26557.114285714284,
+      "Revenue_MA30": 27219.579
+    },
+    {
+      "Date": "2024-09-23",
+      "Revenue": 28498.71,
+      "UnitsSold": 232,
+      "WebsiteVisitors": 7077,
+      "MarketingSpend": 3417.73,
+      "Revenue_MA7": 26684.617142857143,
+      "Revenue_MA30": 27227.207
+    },
+    {
+      "Date": "2024-09-24",
+      "Revenue": 26346.6,
+      "UnitsSold": 210,
+      "WebsiteVisitors": 5253,
+      "MarketingSpend": 2405.2,
+      "Revenue_MA7": 27043.45714285714,
+      "Revenue_MA30": 27134.301
+    },
+    {
+      "Date": "2024-09-25",
+      "Revenue": 25252.41,
+      "UnitsSold": 227,
+      "WebsiteVisitors": 5036,
+      "MarketingSpend": 2243.87,
+      "Revenue_MA7": 27098.905714285713,
+      "Revenue_MA30": 27018.04333333333
+    },
+    {
+      "Date": "2024-09-26",
+      "Revenue": 26263.72,
+      "UnitsSold": 204,
+      "WebsiteVisitors": 6515,
+      "MarketingSpend": 1892.74,
+      "Revenue_MA7": 27063.184285714287,
+      "Revenue_MA30": 27002.844
+    },
+    {
+      "Date": "2024-09-27",
+      "Revenue": 25669.79,
+      "UnitsSold": 215,
+      "WebsiteVisitors": 6473,
+      "MarketingSpend": 1507.09,
+      "Revenue_MA7": 26955.975714285712,
+      "Revenue_MA30": 26927.175
+    },
+    {
+      "Date": "2024-09-28",
+      "Revenue": 29561.48,
+      "UnitsSold": 235,
+      "WebsiteVisitors": 7498,
+      "MarketingSpend": 2993.9,
+      "Revenue_MA7": 26907.27,
+      "Revenue_MA30": 27083.41033333333
+    },
+    {
+      "Date": "2024-09-29",
+      "Revenue": 28089.62,
+      "UnitsSold": 252,
+      "WebsiteVisitors": 5671,
+      "MarketingSpend": 2543.99,
+      "Revenue_MA7": 27097.475714285716,
+      "Revenue_MA30": 27162.934666666664
+    },
+    {
+      "Date": "2024-09-30",
+      "Revenue": 24802.67,
+      "UnitsSold": 230,
+      "WebsiteVisitors": 7562,
+      "MarketingSpend": 1726.02,
+      "Revenue_MA7": 26569.469999999998,
+      "Revenue_MA30": 27117.423333333332
+    },
+    {
+      "Date": "2024-10-01",
+      "Revenue": 24484.34,
+      "UnitsSold": 193,
+      "WebsiteVisitors": 5800,
+      "MarketingSpend": 1722.95,
+      "Revenue_MA7": 26303.432857142856,
+      "Revenue_MA30": 26929.259
+    },
+    {
+      "Date": "2024-10-02",
+      "Revenue": 26073.05,
+      "UnitsSold": 211,
+      "WebsiteVisitors": 6187,
+      "MarketingSpend": 2298.53,
+      "Revenue_MA7": 26420.667142857146,
+      "Revenue_MA30": 26897.732666666667
+    },
+    {
+      "Date": "2024-10-03",
+      "Revenue": 29670.96,
+      "UnitsSold": 263,
+      "WebsiteVisitors": 7921,
+      "MarketingSpend": 3501.41,
+      "Revenue_MA7": 26907.415714285715,
+      "Revenue_MA30": 27015.421333333335
+    },
+    {
+      "Date": "2024-10-04",
+      "Revenue": 26395.02,
+      "UnitsSold": 233,
+      "WebsiteVisitors": 7744,
+      "MarketingSpend": 2344.25,
+      "Revenue_MA7": 27011.019999999997,
+      "Revenue_MA30": 27000.759333333335
+    },
+    {
+      "Date": "2024-10-05",
+      "Revenue": 25990.86,
+      "UnitsSold": 201,
+      "WebsiteVisitors": 5955,
+      "MarketingSpend": 1598.11,
+      "Revenue_MA7": 26500.931428571428,
+      "Revenue_MA30": 27004.140666666666
+    },
+    {
+      "Date": "2024-10-06",
+      "Revenue": 29682.95,
+      "UnitsSold": 268,
+      "WebsiteVisitors": 7920,
+      "MarketingSpend": 2352.55,
+      "Revenue_MA7": 26728.549999999996,
+      "Revenue_MA30": 26971.13566666667
+    },
+    {
+      "Date": "2024-10-07",
+      "Revenue": 26214.44,
+      "UnitsSold": 196,
+      "WebsiteVisitors": 6836,
+      "MarketingSpend": 2336.37,
+      "Revenue_MA7": 26930.231428571427,
+      "Revenue_MA30": 26929.838
+    },
+    {
+      "Date": "2024-10-08",
+      "Revenue": 23485.61,
+      "UnitsSold": 208,
+      "WebsiteVisitors": 6622,
+      "MarketingSpend": 1000.0,
+      "Revenue_MA7": 26787.555714285718,
+      "Revenue_MA30": 26824.73933333333
+    },
+    {
+      "Date": "2024-10-09",
+      "Revenue": 27430.58,
+      "UnitsSold": 219,
+      "WebsiteVisitors": 6077,
+      "MarketingSpend": 2467.42,
+      "Revenue_MA7": 26981.48857142857,
+      "Revenue_MA30": 26814.784666666666
+    },
+    {
+      "Date": "2024-10-10",
+      "Revenue": 26027.99,
+      "UnitsSold": 221,
+      "WebsiteVisitors": 6894,
+      "MarketingSpend": 2361.44,
+      "Revenue_MA7": 26461.06428571429,
+      "Revenue_MA30": 26824.11166666667
+    },
+    {
+      "Date": "2024-10-11",
+      "Revenue": 29975.77,
+      "UnitsSold": 240,
+      "WebsiteVisitors": 6494,
+      "MarketingSpend": 2917.72,
+      "Revenue_MA7": 26972.600000000002,
+      "Revenue_MA30": 26945.41433333333
+    },
+    {
+      "Date": "2024-10-12",
+      "Revenue": 31482.87,
+      "UnitsSold": 272,
+      "WebsiteVisitors": 6793,
+      "MarketingSpend": 3609.37,
+      "Revenue_MA7": 27757.172857142858,
+      "Revenue_MA30": 27176.769333333337
+    },
+    {
+      "Date": "2024-10-13",
+      "Revenue": 29851.93,
+      "UnitsSold": 251,
+      "WebsiteVisitors": 7469,
+      "MarketingSpend": 3175.94,
+      "Revenue_MA7": 27781.312857142857,
+      "Revenue_MA30": 27287.110999999997
+    },
+    {
+      "Date": "2024-10-14",
+      "Revenue": 28152.81,
+      "UnitsSold": 233,
+      "WebsiteVisitors": 7937,
+      "MarketingSpend": 2338.67,
+      "Revenue_MA7": 28058.222857142857,
+      "Revenue_MA30": 27194.41966666667
+    },
+    {
+      "Date": "2024-10-15",
+      "Revenue": 25200.38,
+      "UnitsSold": 225,
+      "WebsiteVisitors": 7667,
+      "MarketingSpend": 1836.08,
+      "Revenue_MA7": 28303.19,
+      "Revenue_MA30": 27016.812
+    },
+    {
+      "Date": "2024-10-16",
+      "Revenue": 30210.43,
+      "UnitsSold": 239,
+      "WebsiteVisitors": 6320,
+      "MarketingSpend": 4044.02,
+      "Revenue_MA7": 28700.311428571433,
+      "Revenue_MA30": 27103.62
+    },
+    {
+      "Date": "2024-10-17",
+      "Revenue": 27188.4,
+      "UnitsSold": 234,
+      "WebsiteVisitors": 6753,
+      "MarketingSpend": 2535.53,
+      "Revenue_MA7": 28866.084285714285,
+      "Revenue_MA30": 27215.409333333333
+    },
+    {
+      "Date": "2024-10-18",
+      "Revenue": 29017.1,
+      "UnitsSold": 245,
+      "WebsiteVisitors": 6064,
+      "MarketingSpend": 2508.36,
+      "Revenue_MA7": 28729.13142857143,
+      "Revenue_MA30": 27353.837
+    },
+    {
+      "Date": "2024-10-19",
+      "Revenue": 30297.02,
+      "UnitsSold": 270,
+      "WebsiteVisitors": 9434,
+      "MarketingSpend": 2485.52,
+      "Revenue_MA7": 28559.72428571429,
+      "Revenue_MA30": 27479.945333333333
+    },
+    {
+      "Date": "2024-10-20",
+      "Revenue": 29416.48,
+      "UnitsSold": 295,
+      "WebsiteVisitors": 10252,
+      "MarketingSpend": 2618.85,
+      "Revenue_MA7": 28497.517142857145,
+      "Revenue_MA30": 27579.819666666666
+    },
+    {
+      "Date": "2024-10-21",
+      "Revenue": 26284.61,
+      "UnitsSold": 221,
+      "WebsiteVisitors": 6728,
+      "MarketingSpend": 2413.38,
+      "Revenue_MA7": 28230.631428571425,
+      "Revenue_MA30": 27459.226
+    },
+    {
+      "Date": "2024-10-22",
+      "Revenue": 26758.45,
+      "UnitsSold": 192,
+      "WebsiteVisitors": 6231,
+      "MarketingSpend": 2155.8,
+      "Revenue_MA7": 28453.21285714286,
+      "Revenue_MA30": 27459.235
+    },
+    {
+      "Date": "2024-10-23",
+      "Revenue": 25961.98,
+      "UnitsSold": 205,
+      "WebsiteVisitors": 6415,
+      "MarketingSpend": 2171.88,
+      "Revenue_MA7": 27846.291428571425,
+      "Revenue_MA30": 27374.677333333337
+    },
+    {
+      "Date": "2024-10-24",
+      "Revenue": 28563.81,
+      "UnitsSold": 238,
+      "WebsiteVisitors": 7071,
+      "MarketingSpend": 2480.35,
+      "Revenue_MA7": 28042.778571428575,
+      "Revenue_MA30": 27448.58433333333
+    },
+    {
+      "Date": "2024-10-25",
+      "Revenue": 27733.32,
+      "UnitsSold": 235,
+      "WebsiteVisitors": 5332,
+      "MarketingSpend": 2173.95,
+      "Revenue_MA7": 27859.381428571425,
+      "Revenue_MA30": 27531.281333333336
+    },
+    {
+      "Date": "2024-10-26",
+      "Revenue": 28303.03,
+      "UnitsSold": 235,
+      "WebsiteVisitors": 6559,
+      "MarketingSpend": 2072.29,
+      "Revenue_MA7": 27574.52571428571,
+      "Revenue_MA30": 27599.258333333335
+    },
+    {
+      "Date": "2024-10-27",
+      "Revenue": 29629.82,
+      "UnitsSold": 238,
+      "WebsiteVisitors": 7323,
+      "MarketingSpend": 2563.86,
+      "Revenue_MA7": 27605.002857142856,
+      "Revenue_MA30": 27731.259333333335
+    },
+    {
+      "Date": "2024-10-28",
+      "Revenue": 25920.52,
+      "UnitsSold": 234,
+      "WebsiteVisitors": 7209,
+      "MarketingSpend": 2347.01,
+      "Revenue_MA7": 27552.989999999998,
+      "Revenue_MA30": 27609.894000000004
+    },
+    {
+      "Date": "2024-10-29",
+      "Revenue": 28132.11,
+      "UnitsSold": 218,
+      "WebsiteVisitors": 5853,
+      "MarketingSpend": 3402.4,
+      "Revenue_MA7": 27749.227142857144,
+      "Revenue_MA30": 27611.310333333335
+    },
+    {
+      "Date": "2024-10-30",
+      "Revenue": 25467.47,
+      "UnitsSold": 202,
+      "WebsiteVisitors": 6916,
+      "MarketingSpend": 1000.0,
+      "Revenue_MA7": 27678.58285714286,
+      "Revenue_MA30": 27633.470333333335
+    },
+    {
+      "Date": "2024-10-31",
+      "Revenue": 27984.36,
+      "UnitsSold": 222,
+      "WebsiteVisitors": 5366,
+      "MarketingSpend": 3154.9,
+      "Revenue_MA7": 27595.804285714286,
+      "Revenue_MA30": 27750.137666666666
+    },
+    {
+      "Date": "2024-11-01",
+      "Revenue": 28990.22,
+      "UnitsSold": 234,
+      "WebsiteVisitors": 6670,
+      "MarketingSpend": 3247.65,
+      "Revenue_MA7": 27775.36142857143,
+      "Revenue_MA30": 27847.376666666667
+    },
+    {
+      "Date": "2024-11-02",
+      "Revenue": 27724.66,
+      "UnitsSold": 230,
+      "WebsiteVisitors": 7125,
+      "MarketingSpend": 1255.97,
+      "Revenue_MA7": 27692.737142857142,
+      "Revenue_MA30": 27782.5
+    },
+    {
+      "Date": "2024-11-03",
+      "Revenue": 30112.78,
+      "UnitsSold": 240,
+      "WebsiteVisitors": 7455,
+      "MarketingSpend": 2294.39,
+      "Revenue_MA7": 27761.731428571427,
+      "Revenue_MA30": 27906.425333333333
+    },
+    {
+      "Date": "2024-11-04",
+      "Revenue": 27564.21,
+      "UnitsSold": 220,
+      "WebsiteVisitors": 6695,
+      "MarketingSpend": 2277.14,
+      "Revenue_MA7": 27996.544285714284,
+      "Revenue_MA30": 27958.870333333332
+    },
+    {
+      "Date": "2024-11-05",
+      "Revenue": 26685.98,
+      "UnitsSold": 227,
+      "WebsiteVisitors": 5806,
+      "MarketingSpend": 1655.49,
+      "Revenue_MA7": 27789.954285714284,
+      "Revenue_MA30": 27858.971333333335
+    },
+    {
+      "Date": "2024-11-06",
+      "Revenue": 26084.69,
+      "UnitsSold": 226,
+      "WebsiteVisitors": 5430,
+      "MarketingSpend": 2033.31,
+      "Revenue_MA7": 27878.12857142857,
+      "Revenue_MA30": 27854.646333333334
+    },
+    {
+      "Date": "2024-11-07",
+      "Revenue": 25260.18,
+      "UnitsSold": 209,
+      "WebsiteVisitors": 6325,
+      "MarketingSpend": 1833.65,
+      "Revenue_MA7": 27488.96,
+      "Revenue_MA30": 27913.79866666667
+    },
+    {
+      "Date": "2024-11-08",
+      "Revenue": 31678.39,
+      "UnitsSold": 239,
+      "WebsiteVisitors": 7120,
+      "MarketingSpend": 3551.36,
+      "Revenue_MA7": 27872.984285714287,
+      "Revenue_MA30": 28055.39233333333
+    },
+    {
+      "Date": "2024-11-09",
+      "Revenue": 30562.79,
+      "UnitsSold": 277,
+      "WebsiteVisitors": 6739,
+      "MarketingSpend": 3061.41,
+      "Revenue_MA7": 28278.43142857143,
+      "Revenue_MA30": 28206.552333333333
+    },
+    {
+      "Date": "2024-11-10",
+      "Revenue": 31014.1,
+      "UnitsSold": 286,
+      "WebsiteVisitors": 8913,
+      "MarketingSpend": 3262.93,
+      "Revenue_MA7": 28407.191428571427,
+      "Revenue_MA30": 28241.163333333334
+    },
+    {
+      "Date": "2024-11-11",
+      "Revenue": 29439.5,
+      "UnitsSold": 242,
+      "WebsiteVisitors": 6755,
+      "MarketingSpend": 2933.0,
+      "Revenue_MA7": 28675.09,
+      "Revenue_MA30": 28173.050999999996
+    },
+    {
+      "Date": "2024-11-12",
+      "Revenue": 26897.09,
+      "UnitsSold": 223,
+      "WebsiteVisitors": 6841,
+      "MarketingSpend": 1822.57,
+      "Revenue_MA7": 28705.24857142857,
+      "Revenue_MA30": 28074.556333333334
+    },
+    {
+      "Date": "2024-11-13",
+      "Revenue": 27510.39,
+      "UnitsSold": 226,
+      "WebsiteVisitors": 7432,
+      "MarketingSpend": 2185.29,
+      "Revenue_MA7": 28908.920000000002,
+      "Revenue_MA30": 28053.14233333333
+    },
+    {
+      "Date": "2024-11-14",
+      "Revenue": 29923.23,
+      "UnitsSold": 245,
+      "WebsiteVisitors": 5930,
+      "MarketingSpend": 2793.62,
+      "Revenue_MA7": 29575.07,
+      "Revenue_MA30": 28210.570666666667
+    },
+    {
+      "Date": "2024-11-15",
+      "Revenue": 27104.72,
+      "UnitsSold": 229,
+      "WebsiteVisitors": 5094,
+      "MarketingSpend": 1766.72,
+      "Revenue_MA7": 28921.68857142857,
+      "Revenue_MA30": 28107.047000000002
+    },
+    {
+      "Date": "2024-11-16",
+      "Revenue": 31881.4,
+      "UnitsSold": 241,
+      "WebsiteVisitors": 7742,
+      "MarketingSpend": 2927.8,
+      "Revenue_MA7": 29110.061428571433,
+      "Revenue_MA30": 28263.480333333333
+    },
+    {
+      "Date": "2024-11-17",
+      "Revenue": 30604.69,
+      "UnitsSold": 285,
+      "WebsiteVisitors": 8528,
+      "MarketingSpend": 2355.8,
+      "Revenue_MA7": 29051.574285714287,
+      "Revenue_MA30": 28316.4
+    },
+    {
+      "Date": "2024-11-18",
+      "Revenue": 28819.35,
+      "UnitsSold": 254,
+      "WebsiteVisitors": 7898,
+      "MarketingSpend": 2275.11,
+      "Revenue_MA7": 28962.981428571427,
+      "Revenue_MA30": 28267.144333333334
+    },
+    {
+      "Date": "2024-11-19",
+      "Revenue": 31330.89,
+      "UnitsSold": 262,
+      "WebsiteVisitors": 8618,
+      "MarketingSpend": 2926.58,
+      "Revenue_MA7": 29596.38142857143,
+      "Revenue_MA30": 28330.958
+    },
+    {
+      "Date": "2024-11-20",
+      "Revenue": 30661.68,
+      "UnitsSold": 286,
+      "WebsiteVisitors": 9276,
+      "MarketingSpend": 2766.56,
+      "Revenue_MA7": 30046.565714285713,
+      "Revenue_MA30": 28476.860333333334
+    },
+    {
+      "Date": "2024-11-21",
+      "Revenue": 30187.1,
+      "UnitsSold": 254,
+      "WebsiteVisitors": 8760,
+      "MarketingSpend": 2283.42,
+      "Revenue_MA7": 30084.261428571426,
+      "Revenue_MA30": 28591.148666666664
+    },
+    {
+      "Date": "2024-11-22",
+      "Revenue": 33687.56,
+      "UnitsSold": 252,
+      "WebsiteVisitors": 7299,
+      "MarketingSpend": 3195.6,
+      "Revenue_MA7": 31024.66714285714,
+      "Revenue_MA30": 28848.668
+    },
+    {
+      "Date": "2024-11-23",
+      "Revenue": 31631.17,
+      "UnitsSold": 263,
+      "WebsiteVisitors": 7456,
+      "MarketingSpend": 1851.36,
+      "Revenue_MA7": 30988.920000000002,
+      "Revenue_MA30": 28950.913333333334
+    },
+    {
+      "Date": "2024-11-24",
+      "Revenue": 33430.96,
+      "UnitsSold": 274,
+      "WebsiteVisitors": 7459,
+      "MarketingSpend": 2869.56,
+      "Revenue_MA7": 31392.672857142858,
+      "Revenue_MA30": 29140.834666666666
+    },
+    {
+      "Date": "2024-11-25",
+      "Revenue": 31354.25,
+      "UnitsSold": 285,
+      "WebsiteVisitors": 6839,
+      "MarketingSpend": 2855.86,
+      "Revenue_MA7": 31754.80142857143,
+      "Revenue_MA30": 29242.541999999998
+    },
+    {
+      "Date": "2024-11-26",
+      "Revenue": 29968.03,
+      "UnitsSold": 260,
+      "WebsiteVisitors": 7655,
+      "MarketingSpend": 2314.27,
+      "Revenue_MA7": 31560.10714285714,
+      "Revenue_MA30": 29253.815666666665
+    },
+    {
+      "Date": "2024-11-27",
+      "Revenue": 33927.27,
+      "UnitsSold": 289,
+      "WebsiteVisitors": 7398,
+      "MarketingSpend": 2695.68,
+      "Revenue_MA7": 32026.62,
+      "Revenue_MA30": 29520.707333333332
+    },
+    {
+      "Date": "2024-11-28",
+      "Revenue": 30084.57,
+      "UnitsSold": 256,
+      "WebsiteVisitors": 8698,
+      "MarketingSpend": 1749.33,
+      "Revenue_MA7": 32011.972857142857,
+      "Revenue_MA30": 29585.78933333333
+    },
+    {
+      "Date": "2024-11-29",
+      "Revenue": 34398.68,
+      "UnitsSold": 264,
+      "WebsiteVisitors": 7809,
+      "MarketingSpend": 3054.42,
+      "Revenue_MA7": 32113.56142857143,
+      "Revenue_MA30": 29883.496333333333
+    },
+    {
+      "Date": "2024-11-30",
+      "Revenue": 34434.94,
+      "UnitsSold": 276,
+      "WebsiteVisitors": 8199,
+      "MarketingSpend": 2389.06,
+      "Revenue_MA7": 32514.100000000002,
+      "Revenue_MA30": 30098.515666666666
+    },
+    {
+      "Date": "2024-12-01",
+      "Revenue": 34654.97,
+      "UnitsSold": 311,
+      "WebsiteVisitors": 8276,
+      "MarketingSpend": 2186.37,
+      "Revenue_MA7": 32688.95857142857,
+      "Revenue_MA30": 30287.340666666667
+    },
+    {
+      "Date": "2024-12-02",
+      "Revenue": 34650.81,
+      "UnitsSold": 284,
+      "WebsiteVisitors": 6439,
+      "MarketingSpend": 3129.41,
+      "Revenue_MA7": 33159.89571428571,
+      "Revenue_MA30": 30518.212333333333
+    },
+    {
+      "Date": "2024-12-03",
+      "Revenue": 32877.76,
+      "UnitsSold": 265,
+      "WebsiteVisitors": 5939,
+      "MarketingSpend": 2077.39,
+      "Revenue_MA7": 33575.57142857143,
+      "Revenue_MA30": 30610.378333333334
+    },
+    {
+      "Date": "2024-12-04",
+      "Revenue": 31091.23,
+      "UnitsSold": 240,
+      "WebsiteVisitors": 6600,
+      "MarketingSpend": 1654.92,
+      "Revenue_MA7": 33170.422857142854,
+      "Revenue_MA30": 30727.945666666667
+    },
+    {
+      "Date": "2024-12-05",
+      "Revenue": 31269.21,
+      "UnitsSold": 235,
+      "WebsiteVisitors": 5428,
+      "MarketingSpend": 1566.02,
+      "Revenue_MA7": 33339.65714285714,
+      "Revenue_MA30": 30880.719999999998
+    },
+    {
+      "Date": "2024-12-06",
+      "Revenue": 35037.73,
+      "UnitsSold": 313,
+      "WebsiteVisitors": 9355,
+      "MarketingSpend": 2863.61,
+      "Revenue_MA7": 33430.950000000004,
+      "Revenue_MA30": 31179.154666666665
+    },
+    {
+      "Date": "2024-12-07",
+      "Revenue": 33667.37,
+      "UnitsSold": 296,
+      "WebsiteVisitors": 9901,
+      "MarketingSpend": 1731.74,
+      "Revenue_MA7": 33321.29714285715,
+      "Revenue_MA30": 31459.394333333334
+    },
+    {
+      "Date": "2024-12-08",
+      "Revenue": 38273.26,
+      "UnitsSold": 348,
+      "WebsiteVisitors": 11650,
+      "MarketingSpend": 3552.88,
+      "Revenue_MA7": 33838.19571428571,
+      "Revenue_MA30": 31679.223333333335
+    },
+    {
+      "Date": "2024-12-09",
+      "Revenue": 30999.23,
+      "UnitsSold": 262,
+      "WebsiteVisitors": 8008,
+      "MarketingSpend": 1250.84,
+      "Revenue_MA7": 33316.54142857143,
+      "Revenue_MA30": 31693.771333333334
+    },
+    {
+      "Date": "2024-12-10",
+      "Revenue": 35141.74,
+      "UnitsSold": 284,
+      "WebsiteVisitors": 7027,
+      "MarketingSpend": 3517.87,
+      "Revenue_MA7": 33639.967142857146,
+      "Revenue_MA30": 31831.359333333334
+    },
+    {
+      "Date": "2024-12-11",
+      "Revenue": 33335.51,
+      "UnitsSold": 260,
+      "WebsiteVisitors": 8636,
+      "MarketingSpend": 2626.61,
+      "Revenue_MA7": 33960.578571428574,
+      "Revenue_MA30": 31961.226333333336
+    },
+    {
+      "Date": "2024-12-12",
+      "Revenue": 33212.55,
+      "UnitsSold": 278,
+      "WebsiteVisitors": 9318,
+      "MarketingSpend": 2441.97,
+      "Revenue_MA7": 34238.19857142858,
+      "Revenue_MA30": 32171.741666666665
+    },
+    {
+      "Date": "2024-12-13",
+      "Revenue": 32886.48,
+      "UnitsSold": 280,
+      "WebsiteVisitors": 6875,
+      "MarketingSpend": 2173.05,
+      "Revenue_MA7": 33930.87714285714,
+      "Revenue_MA30": 32350.94466666667
+    },
+    {
+      "Date": "2024-12-14",
+      "Revenue": 33677.51,
+      "UnitsSold": 277,
+      "WebsiteVisitors": 8749,
+      "MarketingSpend": 2739.48,
+      "Revenue_MA7": 33932.32571428571,
+      "Revenue_MA30": 32476.087333333333
+    },
+    {
+      "Date": "2024-12-15",
+      "Revenue": 34237.33,
+      "UnitsSold": 302,
+      "WebsiteVisitors": 7768,
+      "MarketingSpend": 2477.42,
+      "Revenue_MA7": 33355.76428571429,
+      "Revenue_MA30": 32713.841
+    },
+    {
+      "Date": "2024-12-16",
+      "Revenue": 32221.64,
+      "UnitsSold": 235,
+      "WebsiteVisitors": 7622,
+      "MarketingSpend": 3161.98,
+      "Revenue_MA7": 33530.39428571429,
+      "Revenue_MA30": 32725.182333333334
+    },
+    {
+      "Date": "2024-12-17",
+      "Revenue": 30969.17,
+      "UnitsSold": 289,
+      "WebsiteVisitors": 10104,
+      "MarketingSpend": 2568.54,
+      "Revenue_MA7": 32934.31285714286,
+      "Revenue_MA30": 32737.33166666667
+    },
+    {
+      "Date": "2024-12-18",
+      "Revenue": 31553.51,
+      "UnitsSold": 259,
+      "WebsiteVisitors": 5799,
+      "MarketingSpend": 2590.18,
+      "Revenue_MA7": 32679.74142857143,
+      "Revenue_MA30": 32828.47033333334
+    },
+    {
+      "Date": "2024-12-19",
+      "Revenue": 31184.31,
+      "UnitsSold": 228,
+      "WebsiteVisitors": 7675,
+      "MarketingSpend": 2281.83,
+      "Revenue_MA7": 32389.992857142857,
+      "Revenue_MA30": 32823.58433333333
+    },
+    {
+      "Date": "2024-12-20",
+      "Revenue": 31389.75,
+      "UnitsSold": 261,
+      "WebsiteVisitors": 7854,
+      "MarketingSpend": 2465.83,
+      "Revenue_MA7": 32176.17428571429,
+      "Revenue_MA30": 32847.85333333333
+    },
+    {
+      "Date": "2024-12-21",
+      "Revenue": 32778.87,
+      "UnitsSold": 276,
+      "WebsiteVisitors": 9564,
+      "MarketingSpend": 2684.68,
+      "Revenue_MA7": 32047.797142857144,
+      "Revenue_MA30": 32934.24566666667
+    },
+    {
+      "Date": "2024-12-22",
+      "Revenue": 31319.04,
+      "UnitsSold": 267,
+      "WebsiteVisitors": 7488,
+      "MarketingSpend": 1473.9,
+      "Revenue_MA7": 31630.89857142857,
+      "Revenue_MA30": 32855.295000000006
+    },
+    {
+      "Date": "2024-12-23",
+      "Revenue": 28085.94,
+      "UnitsSold": 236,
+      "WebsiteVisitors": 7791,
+      "MarketingSpend": 1691.09,
+      "Revenue_MA7": 31040.084285714285,
+      "Revenue_MA30": 32737.120666666666
+    },
+    {
+      "Date": "2024-12-24",
+      "Revenue": 32159.13,
+      "UnitsSold": 245,
+      "WebsiteVisitors": 5588,
+      "MarketingSpend": 2945.96,
+      "Revenue_MA7": 31210.07857142857,
+      "Revenue_MA30": 32694.726333333336
+    },
+    {
+      "Date": "2024-12-25",
+      "Revenue": 30057.58,
+      "UnitsSold": 293,
+      "WebsiteVisitors": 7723,
+      "MarketingSpend": 2602.52,
+      "Revenue_MA7": 30996.37428571429,
+      "Revenue_MA30": 32651.504000000004
+    },
+    {
+      "Date": "2024-12-26",
+      "Revenue": 27973.45,
+      "UnitsSold": 211,
+      "WebsiteVisitors": 4825,
+      "MarketingSpend": 2389.61,
+      "Revenue_MA7": 30537.679999999997,
+      "Revenue_MA30": 32585.018
+    },
+    {
+      "Date": "2024-12-27",
+      "Revenue": 31221.48,
+      "UnitsSold": 287,
+      "WebsiteVisitors": 9953,
+      "MarketingSpend": 2511.06,
+      "Revenue_MA7": 30513.64142857143,
+      "Revenue_MA30": 32494.825
+    },
+    {
+      "Date": "2024-12-28",
+      "Revenue": 32441.69,
+      "UnitsSold": 275,
+      "WebsiteVisitors": 8970,
+      "MarketingSpend": 2708.55,
+      "Revenue_MA7": 30465.472857142857,
+      "Revenue_MA30": 32573.39566666667
+    },
+    {
+      "Date": "2024-12-29",
+      "Revenue": 32208.7,
+      "UnitsSold": 276,
+      "WebsiteVisitors": 9130,
+      "MarketingSpend": 2176.14,
+      "Revenue_MA7": 30592.567142857148,
+      "Revenue_MA30": 32500.396333333334
+    },
+    {
+      "Date": "2024-12-30",
+      "Revenue": 29332.53,
+      "UnitsSold": 235,
+      "WebsiteVisitors": 8035,
+      "MarketingSpend": 2033.02,
+      "Revenue_MA7": 30770.65142857143,
+      "Revenue_MA30": 32330.316
+    }
+  ],
+  "forecast": [
+    {
+      "Date": "2024-12-31",
+      "ForecastRevenue": 27778.33,
+      "LowerBound": 26504.33,
+      "UpperBound": 29052.33,
+      "EstimatedUnits": 222,
+      "DayOfWeek": "Tuesday"
+    },
+    {
+      "Date": "2025-01-01",
+      "ForecastRevenue": 27993.55,
+      "LowerBound": 26676.43,
+      "UpperBound": 29310.67,
+      "EstimatedUnits": 223,
+      "DayOfWeek": "Wednesday"
+    },
+    {
+      "Date": "2025-01-02",
+      "ForecastRevenue": 27992.23,
+      "LowerBound": 26631.99,
+      "UpperBound": 29352.47,
+      "EstimatedUnits": 223,
+      "DayOfWeek": "Thursday"
+    },
+    {
+      "Date": "2025-01-03",
+      "ForecastRevenue": 28689.67,
+      "LowerBound": 27286.31,
+      "UpperBound": 30093.03,
+      "EstimatedUnits": 229,
+      "DayOfWeek": "Friday"
+    },
+    {
+      "Date": "2025-01-04",
+      "ForecastRevenue": 29534.89,
+      "LowerBound": 28088.41,
+      "UpperBound": 30981.37,
+      "EstimatedUnits": 236,
+      "DayOfWeek": "Saturday"
+    },
+    {
+      "Date": "2025-01-05",
+      "ForecastRevenue": 29972.77,
+      "LowerBound": 28483.17,
+      "UpperBound": 31462.37,
+      "EstimatedUnits": 239,
+      "DayOfWeek": "Sunday"
+    },
+    {
+      "Date": "2025-01-06",
+      "ForecastRevenue": 28607.7,
+      "LowerBound": 27074.98,
+      "UpperBound": 30140.42,
+      "EstimatedUnits": 228,
+      "DayOfWeek": "Monday"
+    },
+    {
+      "Date": "2025-01-07",
+      "ForecastRevenue": 28696.66,
+      "LowerBound": 27120.82,
+      "UpperBound": 30272.5,
+      "EstimatedUnits": 229,
+      "DayOfWeek": "Tuesday"
+    },
+    {
+      "Date": "2025-01-08",
+      "ForecastRevenue": 28701.12,
+      "LowerBound": 27082.16,
+      "UpperBound": 30320.08,
+      "EstimatedUnits": 229,
+      "DayOfWeek": "Wednesday"
+    },
+    {
+      "Date": "2025-01-09",
+      "ForecastRevenue": 28816.9,
+      "LowerBound": 27154.82,
+      "UpperBound": 30478.98,
+      "EstimatedUnits": 230,
+      "DayOfWeek": "Thursday"
+    },
+    {
+      "Date": "2025-01-10",
+      "ForecastRevenue": 29877.16,
+      "LowerBound": 28171.96,
+      "UpperBound": 31582.36,
+      "EstimatedUnits": 239,
+      "DayOfWeek": "Friday"
+    },
+    {
+      "Date": "2025-01-11",
+      "ForecastRevenue": 30774.2,
+      "LowerBound": 29025.88,
+      "UpperBound": 32522.52,
+      "EstimatedUnits": 246,
+      "DayOfWeek": "Saturday"
+    },
+    {
+      "Date": "2025-01-12",
+      "ForecastRevenue": 31081.37,
+      "LowerBound": 29289.93,
+      "UpperBound": 32872.81,
+      "EstimatedUnits": 248,
+      "DayOfWeek": "Sunday"
+    },
+    {
+      "Date": "2025-01-13",
+      "ForecastRevenue": 29145.91,
+      "LowerBound": 27311.35,
+      "UpperBound": 30980.47,
+      "EstimatedUnits": 233,
+      "DayOfWeek": "Monday"
+    },
+    {
+      "Date": "2025-01-14",
+      "ForecastRevenue": 29091.19,
+      "LowerBound": 27213.51,
+      "UpperBound": 30968.87,
+      "EstimatedUnits": 232,
+      "DayOfWeek": "Tuesday"
+    },
+    {
+      "Date": "2025-01-15",
+      "ForecastRevenue": 28996.57,
+      "LowerBound": 27075.77,
+      "UpperBound": 30917.37,
+      "EstimatedUnits": 231,
+      "DayOfWeek": "Wednesday"
+    },
+    {
+      "Date": "2025-01-16",
+      "ForecastRevenue": 29087.8,
+      "LowerBound": 27123.88,
+      "UpperBound": 31051.72,
+      "EstimatedUnits": 232,
+      "DayOfWeek": "Thursday"
+    },
+    {
+      "Date": "2025-01-17",
+      "ForecastRevenue": 30116.86,
+      "LowerBound": 28109.82,
+      "UpperBound": 32123.9,
+      "EstimatedUnits": 240,
+      "DayOfWeek": "Friday"
+    },
+    {
+      "Date": "2025-01-18",
+      "ForecastRevenue": 30929.35,
+      "LowerBound": 28879.19,
+      "UpperBound": 32979.51,
+      "EstimatedUnits": 247,
+      "DayOfWeek": "Saturday"
+    },
+    {
+      "Date": "2025-01-19",
+      "ForecastRevenue": 31168.36,
+      "LowerBound": 29075.08,
+      "UpperBound": 33261.64,
+      "EstimatedUnits": 249,
+      "DayOfWeek": "Sunday"
+    },
+    {
+      "Date": "2025-01-20",
+      "ForecastRevenue": 29140.98,
+      "LowerBound": 27004.58,
+      "UpperBound": 31277.38,
+      "EstimatedUnits": 233,
+      "DayOfWeek": "Monday"
+    },
+    {
+      "Date": "2025-01-21",
+      "ForecastRevenue": 28990.22,
+      "LowerBound": 26810.7,
+      "UpperBound": 31169.74,
+      "EstimatedUnits": 231,
+      "DayOfWeek": "Tuesday"
+    },
+    {
+      "Date": "2025-01-22",
+      "ForecastRevenue": 28843.5,
+      "LowerBound": 26620.86,
+      "UpperBound": 31066.14,
+      "EstimatedUnits": 230,
+      "DayOfWeek": "Wednesday"
+    },
+    {
+      "Date": "2025-01-23",
+      "ForecastRevenue": 28926.98,
+      "LowerBound": 26661.22,
+      "UpperBound": 31192.74,
+      "EstimatedUnits": 231,
+      "DayOfWeek": "Thursday"
+    },
+    {
+      "Date": "2025-01-24",
+      "ForecastRevenue": 30048.33,
+      "LowerBound": 27739.45,
+      "UpperBound": 32357.21,
+      "EstimatedUnits": 240,
+      "DayOfWeek": "Friday"
+    },
+    {
+      "Date": "2025-01-25",
+      "ForecastRevenue": 30727.98,
+      "LowerBound": 28375.98,
+      "UpperBound": 33079.98,
+      "EstimatedUnits": 245,
+      "DayOfWeek": "Saturday"
+    },
+    {
+      "Date": "2025-01-26",
+      "ForecastRevenue": 30448.72,
+      "LowerBound": 28053.6,
+      "UpperBound": 32843.84,
+      "EstimatedUnits": 243,
+      "DayOfWeek": "Sunday"
+    },
+    {
+      "Date": "2025-01-27",
+      "ForecastRevenue": 28703.4,
+      "LowerBound": 26265.16,
+      "UpperBound": 31141.64,
+      "EstimatedUnits": 229,
+      "DayOfWeek": "Monday"
+    },
+    {
+      "Date": "2025-01-28",
+      "ForecastRevenue": 28506.51,
+      "LowerBound": 26025.15,
+      "UpperBound": 30987.87,
+      "EstimatedUnits": 228,
+      "DayOfWeek": "Tuesday"
+    },
+    {
+      "Date": "2025-01-29",
+      "ForecastRevenue": 28318.06,
+      "LowerBound": 25793.58,
+      "UpperBound": 30842.54,
+      "EstimatedUnits": 226,
+      "DayOfWeek": "Wednesday"
+    },
+    {
+      "Date": "2025-01-30",
+      "ForecastRevenue": 28307.35,
+      "LowerBound": 25739.75,
+      "UpperBound": 30874.95,
+      "EstimatedUnits": 226,
+      "DayOfWeek": "Thursday"
+    },
+    {
+      "Date": "2025-01-31",
+      "ForecastRevenue": 28744.8,
+      "LowerBound": 26134.08,
+      "UpperBound": 31355.52,
+      "EstimatedUnits": 229,
+      "DayOfWeek": "Friday"
+    },
+    {
+      "Date": "2025-02-01",
+      "ForecastRevenue": 29427.71,
+      "LowerBound": 26773.87,
+      "UpperBound": 32081.55,
+      "EstimatedUnits": 235,
+      "DayOfWeek": "Saturday"
+    },
+    {
+      "Date": "2025-02-02",
+      "ForecastRevenue": 29516.6,
+      "LowerBound": 26819.64,
+      "UpperBound": 32213.56,
+      "EstimatedUnits": 236,
+      "DayOfWeek": "Sunday"
+    },
+    {
+      "Date": "2025-02-03",
+      "ForecastRevenue": 27443.36,
+      "LowerBound": 24703.28,
+      "UpperBound": 30183.44,
+      "EstimatedUnits": 219,
+      "DayOfWeek": "Monday"
+    },
+    {
+      "Date": "2025-02-04",
+      "ForecastRevenue": 27348.77,
+      "LowerBound": 24565.57,
+      "UpperBound": 30131.97,
+      "EstimatedUnits": 218,
+      "DayOfWeek": "Tuesday"
+    },
+    {
+      "Date": "2025-02-05",
+      "ForecastRevenue": 27203.18,
+      "LowerBound": 24376.86,
+      "UpperBound": 30029.5,
+      "EstimatedUnits": 217,
+      "DayOfWeek": "Wednesday"
+    },
+    {
+      "Date": "2025-02-06",
+      "ForecastRevenue": 27339.02,
+      "LowerBound": 24469.58,
+      "UpperBound": 30208.46,
+      "EstimatedUnits": 218,
+      "DayOfWeek": "Thursday"
+    },
+    {
+      "Date": "2025-02-07",
+      "ForecastRevenue": 27947.0,
+      "LowerBound": 25034.44,
+      "UpperBound": 30859.56,
+      "EstimatedUnits": 223,
+      "DayOfWeek": "Friday"
+    },
+    {
+      "Date": "2025-02-08",
+      "ForecastRevenue": 28796.58,
+      "LowerBound": 25840.9,
+      "UpperBound": 31752.26,
+      "EstimatedUnits": 230,
+      "DayOfWeek": "Saturday"
+    },
+    {
+      "Date": "2025-02-09",
+      "ForecastRevenue": 29125.6,
+      "LowerBound": 26126.8,
+      "UpperBound": 32124.4,
+      "EstimatedUnits": 233,
+      "DayOfWeek": "Sunday"
+    },
+    {
+      "Date": "2025-02-10",
+      "ForecastRevenue": 27215.66,
+      "LowerBound": 24173.74,
+      "UpperBound": 30257.58,
+      "EstimatedUnits": 217,
+      "DayOfWeek": "Monday"
+    },
+    {
+      "Date": "2025-02-11",
+      "ForecastRevenue": 27102.98,
+      "LowerBound": 24017.94,
+      "UpperBound": 30188.02,
+      "EstimatedUnits": 216,
+      "DayOfWeek": "Tuesday"
+    },
+    {
+      "Date": "2025-02-12",
+      "ForecastRevenue": 27053.23,
+      "LowerBound": 23925.07,
+      "UpperBound": 30181.39,
+      "EstimatedUnits": 216,
+      "DayOfWeek": "Wednesday"
+    },
+    {
+      "Date": "2025-02-13",
+      "ForecastRevenue": 27224.12,
+      "LowerBound": 24052.84,
+      "UpperBound": 30395.4,
+      "EstimatedUnits": 217,
+      "DayOfWeek": "Thursday"
+    },
+    {
+      "Date": "2025-02-14",
+      "ForecastRevenue": 27825.46,
+      "LowerBound": 24611.06,
+      "UpperBound": 31039.86,
+      "EstimatedUnits": 222,
+      "DayOfWeek": "Friday"
+    },
+    {
+      "Date": "2025-02-15",
+      "ForecastRevenue": 28659.22,
+      "LowerBound": 25401.7,
+      "UpperBound": 31916.74,
+      "EstimatedUnits": 229,
+      "DayOfWeek": "Saturday"
+    },
+    {
+      "Date": "2025-02-16",
+      "ForecastRevenue": 29060.22,
+      "LowerBound": 25759.58,
+      "UpperBound": 32360.86,
+      "EstimatedUnits": 232,
+      "DayOfWeek": "Sunday"
+    },
+    {
+      "Date": "2025-02-17",
+      "ForecastRevenue": 27244.14,
+      "LowerBound": 23900.38,
+      "UpperBound": 30587.9,
+      "EstimatedUnits": 217,
+      "DayOfWeek": "Monday"
+    },
+    {
+      "Date": "2025-02-18",
+      "ForecastRevenue": 27208.9,
+      "LowerBound": 23822.02,
+      "UpperBound": 30595.78,
+      "EstimatedUnits": 217,
+      "DayOfWeek": "Tuesday"
+    },
+    {
+      "Date": "2025-02-19",
+      "ForecastRevenue": 27168.27,
+      "LowerBound": 23738.27,
+      "UpperBound": 30598.27,
+      "EstimatedUnits": 217,
+      "DayOfWeek": "Wednesday"
+    },
+    {
+      "Date": "2025-02-20",
+      "ForecastRevenue": 27281.9,
+      "LowerBound": 23808.78,
+      "UpperBound": 30755.02,
+      "EstimatedUnits": 218,
+      "DayOfWeek": "Thursday"
+    },
+    {
+      "Date": "2025-02-21",
+      "ForecastRevenue": 27904.48,
+      "LowerBound": 24388.24,
+      "UpperBound": 31420.72,
+      "EstimatedUnits": 223,
+      "DayOfWeek": "Friday"
+    },
+    {
+      "Date": "2025-02-22",
+      "ForecastRevenue": 28775.24,
+      "LowerBound": 25215.88,
+      "UpperBound": 32334.6,
+      "EstimatedUnits": 230,
+      "DayOfWeek": "Saturday"
+    },
+    {
+      "Date": "2025-02-23",
+      "ForecastRevenue": 29194.59,
+      "LowerBound": 25592.11,
+      "UpperBound": 32797.07,
+      "EstimatedUnits": 233,
+      "DayOfWeek": "Sunday"
+    },
+    {
+      "Date": "2025-02-24",
+      "ForecastRevenue": 27338.27,
+      "LowerBound": 23692.67,
+      "UpperBound": 30983.87,
+      "EstimatedUnits": 218,
+      "DayOfWeek": "Monday"
+    },
+    {
+      "Date": "2025-02-25",
+      "ForecastRevenue": 27371.13,
+      "LowerBound": 23682.41,
+      "UpperBound": 31059.85,
+      "EstimatedUnits": 218,
+      "DayOfWeek": "Tuesday"
+    },
+    {
+      "Date": "2025-02-26",
+      "ForecastRevenue": 27373.11,
+      "LowerBound": 23641.27,
+      "UpperBound": 31104.95,
+      "EstimatedUnits": 218,
+      "DayOfWeek": "Wednesday"
+    },
+    {
+      "Date": "2025-02-27",
+      "ForecastRevenue": 27458.58,
+      "LowerBound": 23683.62,
+      "UpperBound": 31233.54,
+      "EstimatedUnits": 219,
+      "DayOfWeek": "Thursday"
+    },
+    {
+      "Date": "2025-02-28",
+      "ForecastRevenue": 28198.25,
+      "LowerBound": 24380.17,
+      "UpperBound": 32016.33,
+      "EstimatedUnits": 225,
+      "DayOfWeek": "Friday"
+    }
+  ]
+}
